@@ -18,6 +18,10 @@ p{
 }
 
 body{
+    background-image: url("../images/bg-pattern-top-mobile.svg"),url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
     padding:3rem 1.7rem;
     display: flex;
     flex-direction: column;
@@ -113,6 +117,10 @@ h1{
 
 @media screen and (min-width:700px) {
     body{
+        background-image: url("../images/bg-pattern-top-desktop.svg"),url("../images/bg-pattern-bottom-desktop.svg");
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+
         padding:15rem;
         display: grid;
         grid-template-columns: 35rem 35rem;
